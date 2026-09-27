@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Claudia Wavinya — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <span class="nav__name">Claudia Wavinya</span>
+    <nav>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Building things<br>with code.</h1>
+      <p class="hero__sub">Front-end developer learning HTML, CSS, and JavaScript — one project at a time.</p>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <div class="about__content">
+        <img class="about__avatar" src="https://i.pinimg.com/736x/0b/67/bd/0b67bd05376b6faecc649568e2a06c03.jpg" alt="Portrait of Claudia Wavinya">
+        <p>
+          I'm Claudia Wavinya, a developer based in Nairobi, currently sharpening my front-end
+          skills through hands-on projects. I like taking an idea from a blank
+          file to a working, prosperous site, and I'm especially interested in using CSS and JavaScript to create interactive, 
+          user-friendly experiences.
+            Outside of code, I enjoy swimming and reading novels.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <ul id="skills-list" class="skills__list"></ul>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div id="projects-list" class="projects__list"></div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact</h2>
+      <p>Want to get in touch? Reach out below.</p>
+      <ul class="contact__links">
+        <li><a href="mailto:claudia.wavinya@gmail.com">claudia.wavinya@gmail.com</a></li>
+        <li><a href="https://github.com/claudiawavinya" target="_blank" rel="noopener">github.com/claudiawavinya</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> Claudia Wavinya. Built with HTML, CSS &amp; JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

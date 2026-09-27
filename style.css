@@ -1,0 +1,178 @@
+/* ===== Tokens ===== */
+:root {
+  --bg: #640660;
+  --bg-raised: #232B28;
+  --text: #050118;
+  --text-dim: #cee3f1;
+  --accent: #524d83;
+  --border: #3c0569;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-body: "Inter", -apple-system, Segoe UI, sans-serif;
+  --max-width: 900px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover, a:focus-visible { text-decoration: underline; }
+
+section, .nav, .footer {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
+}
+
+/* ===== Nav ===== */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.nav__name {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+}
+.nav__links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+.nav__links a {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+}
+.nav__links a:hover { color: var(--text); }
+
+/* ===== Hero ===== */
+.hero {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.hero h1 {
+  font-size: clamp(2.2rem, 6vw, 3.4rem);
+  line-height: 1.1;
+}
+.hero__sub {
+  color: var(--text-dim);
+  max-width: 46ch;
+  margin-top: 1rem;
+  font-size: 1.05rem;
+}
+
+/* ===== About ===== */
+.about h2, .skills h2, .projects h2, .contact h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+.about__content {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+.about__avatar {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+.about__content p { margin: 0; color: var(--text-dim); }
+
+/* ===== Skills ===== */
+.skills__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0;
+}
+.skills__list li {
+  border: 1px solid var(--border);
+  background: purple;
+  color: rgb(202, 152, 152);
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+/* ===== Projects ===== */
+.projects__list {
+  display: grid;
+  gap: 1rem;
+}
+.project-card {
+  border: 1px solid var(--border);
+  background: purple;
+  border-radius: 10px;
+  padding: 1.5rem;
+}
+.project-card h3 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem;
+}
+.project-card p {
+  color: var(--text-dim);
+  margin: 0 0 0.75rem;
+}
+.project-card__tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.project-card__tech li {
+  font-size: 0.8rem;
+  color: var(--text-dim);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 0.15rem 0.6rem;
+}
+
+/* ===== Contact ===== */
+.contact__links {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+.contact__links li { margin-bottom: 0.4rem; }
+
+/* ===== Footer ===== */
+.footer {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 500px) {
+  .nav { flex-direction: column; gap: 0.75rem; align-items: flex-start; }
+  .about__content { flex-direction: column; }
+}
