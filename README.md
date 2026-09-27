@@ -1,29 +1,32 @@
 # Claudia Wavinya — Portfolio Website
 
-A single-page personal portfolio site built with plain HTML, CSS, and JavaScript. Skills and projects are stored as JS data and rendered onto the page dynamically.
+Personal site (one page) in plain HTML, CSS and JavaScript. Skills and projects are displayed on the page dynamically from JS data.
 
 **Live demo:** https://mutungaclaudia5-dot.github.io/claudiawavinya-portfolio/
 
 ## Features
 
-- Header/nav with links to each section on the page
-- About Me section with a short bio and photo
-- Skills list rendered from a JavaScript array
-- Project cards rendered from a JavaScript array of objects
-- Contact section with email and GitHub link
-- Responsive layout for mobile and desktop
+-- Included links to each of the sections on the page in the header/nav bar.
+A short bio and picture of the person in the About Me section.
+- Skills List from a JS Array
+Rendered project cards, based on JavaScript array of objects
+- Linked to the contact section using email and the GitHub link.
+- Adaptive design for mobile and desktop devices
 
 ## Technologies Used
 
 - HTML5
-- CSS3 (custom properties, flexbox, grid)
+- Added CSS3 features (custom properties, flexbox, grid)
 - Vanilla JavaScript (DOM manipulation, array iteration)
 
 ## Running Locally
 
 1. Clone the repo:
-2. Open `index.html` in your browser — no build step or server required.
+ ls from the markup—rendering them from JavaScript arrays as opposed to being hardcoded into HTML—in working on this project. It was also a great chance for me to deploy a static site using GitHub Pages and to write more focused and incremental Git commits.  ```
+   git clone https://github.com/claudiawavinya/claudiawavinya-portfolio.git
+   ```
+2. Open `index.html` in a browser — no build step or server required.
 
 ## What I Learned
 
-Working on this project helped me practice separating content from markup by rendering both skills and projects from JavaScript arrays instead of hardcoding them into the HTML. It also gave me hands-on experience deploying a static site with GitHub Pages and writing focused, incremental Git commits.
+Working on this project helped me practice separating content from markup by rendering both skills and projects from JavaScript arrays instead of hardcoding them into the HTML. 
