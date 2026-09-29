@@ -6,10 +6,10 @@ Personal site (one page) in plain HTML, CSS and JavaScript. Skills and projects 
 
 ## Features
 
--- Included links to each of the sections on the page in the header/nav bar.
-A short bio and picture of the person in the About Me section.
+- Included links to each of the sections on the page in the header/nav bar.
+- A short bio and picture in the About Me section.
 - Skills List from a JS Array
-Rendered project cards, based on JavaScript array of objects
+ -Rendered project cards, based on JavaScript array of objects
 - Linked to the contact section using email and the GitHub link.
 - Adaptive design for mobile and desktop devices
 
