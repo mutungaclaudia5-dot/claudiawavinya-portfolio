@@ -1,6 +1,6 @@
 # Claudia Wavinya — Portfolio Website
 
-Personal site (one page) in plain HTML, CSS and JavaScript. Skills and projects are displayed on the page dynamically from JS data.
+Personal site (one page) in plain HTML and CSS . 
 
 **Live demo:** https://mutungaclaudia5-dot.github.io/claudiawavinya-portfolio/
 
@@ -8,8 +8,7 @@ Personal site (one page) in plain HTML, CSS and JavaScript. Skills and projects 
 
 - Included links to each of the sections on the page in the header/nav bar.
 - A short bio and picture in the About Me section.
-- Skills List from a JS Array
- -Rendered project cards, based on JavaScript array of objects
+ -Rendered project cards
 - Linked to the contact section using email and the GitHub link.
 - Adaptive design for mobile and desktop devices
 
@@ -17,7 +16,6 @@ Personal site (one page) in plain HTML, CSS and JavaScript. Skills and projects 
 
 - HTML5
 - Added CSS3 features (custom properties, flexbox, grid)
-- Vanilla JavaScript (DOM manipulation, array iteration)
 
 ## Running Locally
 
@@ -29,4 +27,4 @@ Personal site (one page) in plain HTML, CSS and JavaScript. Skills and projects 
 
 ## What I Learned
 
-Working on this project helped me practice separating content from markup by rendering both skills and projects from JavaScript arrays instead of hardcoding them into the HTML. 
+Working on this project helped me practice on how to organize a webpage using headings,paragraphs,images and links on HTML and how to position things using flex properties.
