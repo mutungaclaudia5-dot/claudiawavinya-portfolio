@@ -123,7 +123,7 @@ section, .nav, .footer {
 .skills__list li {
   border: 1px solid var(--border);
   background: purple;
-  color: rgb(219, 125, 125);
+  color: rgb(214, 105, 105);
   padding: 0.4rem 0.9rem;
   border-radius: 999px;
   font-size: 0.9rem;
